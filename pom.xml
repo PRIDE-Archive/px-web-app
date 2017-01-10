@@ -4,7 +4,7 @@
     <groupId>uk.ac.ebi.proteomexchange</groupId>
     <artifactId>proteomexchange-app</artifactId>
     <packaging>war</packaging>
-    <version>2.0.1</version>
+    <version>2.0.2-SNAPSHOT</version>
     <name>protoemexchange-app</name>
 
     <properties>
@@ -58,7 +58,7 @@
         <connection>scm:git:https://github.com/proteomexchange/proteomeXchange-web-app.git</connection>
         <developerConnection>scm:git:https://github.com/proteomexchange/proteomeXchange-web-app.git</developerConnection>
         <url>https://github.com/proteomexchange/proteomeXchange-web-app.git</url>
-        <tag>proteomexchange-app-2.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
 </project>

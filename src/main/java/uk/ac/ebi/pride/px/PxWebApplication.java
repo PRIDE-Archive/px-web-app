@@ -33,8 +33,8 @@ public class PxWebApplication {
 
     /**
      * This method maps the "/error" path, which redirects the user to the root home page "/".
-     * @param response
-     * @throws IOException
+     * @param response redirects the user to the root home page "/".
+     * @throws IOException problem when redirecting user.
      */
     @GetMapping("/error")
     public void redirectNonExistentUrlsToHome(HttpServletResponse response) throws IOException {

@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * This class runs the ProteomeXchange stateic website as a Spring web application.
+ * This class runs the ProteomeXchange static website as a Spring web application.
  *
  * @author Tobias-Ternent
  */

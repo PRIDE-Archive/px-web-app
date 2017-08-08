@@ -4,7 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.web.ErrorController;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -48,6 +51,22 @@ public class PxWebApplication {
     @Override
     public String getErrorPath() {
       return "/error";
+    }
+  }
+
+  /**
+   * This inner class is the controller to redirect from the submission directory to the submission page.
+   */
+  @Controller
+  public class SubmissionRedirection {
+    /**
+     * Handles the redirection to the submission.html page.
+     * @param model the model, unused.
+     * @return the redirection String.
+     */
+    @RequestMapping(value="/submission",method = RequestMethod.GET)
+    public String redirectSubmissionPage(Model model){
+      return "redirect:submission/index.html";
     }
   }
 }

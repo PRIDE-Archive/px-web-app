@@ -61,11 +61,10 @@ public class PxWebApplication {
   public class SubmissionRedirection {
     /**
      * Handles the redirection to the submission.html page.
-     * @param model the model, unused.
-     * @return the redirection String.
+     * @return the redirection url.
      */
     @RequestMapping(value="/submission",method = RequestMethod.GET)
-    public String redirectSubmissionPage(Model model){
+    public String redirectSubmissionPage(){
       return "redirect:submission/index.html";
     }
   }

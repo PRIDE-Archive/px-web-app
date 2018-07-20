@@ -211,9 +211,7 @@ a {
     max-width: 64rem;
     padding: 2rem 6rem;
     margin: 0 auto;
-    font-size: 1.1rem;
-    margin-right: 6cm;
-  } }
+    font-size: 1.1rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main-content {
@@ -235,9 +233,7 @@ a {
   font-weight: bold; }
 
 .site-footer-credits {
-    color: #819198;
-    align-content: center;
-}
+  color: #819198; }
 
 @media screen and (min-width: 64em) {
   .site-footer {
@@ -250,22 +246,3 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
-
-.div-table{
-    display:table;
-    width:auto;
-    background-color: white;
-    border:0px solid  white;
-    border-spacing:5px;/*cellspacing:poor IE support for  this*/
-}
-.div-table-row{
-    display:table-row;
-    width:auto;
-    clear:both;
-}
-.div-table-col{
-    float:left;/*fix for  buggy browsers*/
-    display:table-column;
-    width:170px;
-    background-color: white;
-}

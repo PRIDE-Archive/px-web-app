@@ -64,7 +64,17 @@ public class PxWebApplication {
      */
     @RequestMapping(value="/submission",method = RequestMethod.GET)
     public String redirectSubmissionPage(){
-      return "redirect:submission/index.html";
+      return "redirect:/submission/index.html";
     }
+
+  }
+
+  @Controller
+  public class ContactRedirection{
+
+      @RequestMapping(value="/contact",method = RequestMethod.GET)
+      public String redirectContactPage(){
+          return "redirect:/contact/index.html";
+      }
   }
 }

@@ -69,6 +69,22 @@ public class PxWebApplication {
 
   }
 
+    /**
+     * This inner class is the controller to redirect from the subscribe directory to the subscribe page.
+     */
+    @Controller
+    public class SubscribeRedirection {
+        /**
+         * Handles the redirection to the submission.html page.
+         * @return the redirection url.
+         */
+        @RequestMapping(value="/subscribe",method = RequestMethod.GET)
+        public String redirectSubmissionPage(){
+            return "redirect:/subscribe/index.html";
+        }
+
+    }
+
   @Controller
   public class ContactRedirection{
 

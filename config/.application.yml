@@ -1,0 +1,6 @@
+# server settings
+server:
+  port: $port
+
+#log output file
+logging.path: '$logpath/logs_${HOSTNAME}/'

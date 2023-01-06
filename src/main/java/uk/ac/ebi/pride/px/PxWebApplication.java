@@ -93,4 +93,13 @@ public class PxWebApplication {
           return "redirect:/contact/index.html";
       }
   }
+
+    @Controller
+    public class PTMxchangeRedirection{
+
+        @RequestMapping(value="/ptmxchange",method = RequestMethod.GET)
+        public String redirectPTMxchangePage(){
+            return "redirect:/ptmxchange/index.html";
+        }
+    }
 }

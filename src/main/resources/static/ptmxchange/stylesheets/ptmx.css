@@ -1,0 +1,255 @@
+body {
+    padding: 0px;
+    margin:  0px;
+    box-sizing:border-box;
+    color:#002664;
+    background-color: #f3f1e4;
+    font-family: Barlow, Arial, sans-serif;
+    font-size: medium;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-left: -20px;
+    font-weight: 700;
+    border-left: 10px solid #2c99ce;
+    padding: 10px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid #999;
+}
+
+ul {
+    padding-inline-start: 10px;
+}
+
+#pc-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95px;
+    z-index: 5;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 20px;
+    color: #fff;
+    background-color: #ddd;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8) ), url('./PTMXbanner.png');
+    background-size: contain;
+
+}
+
+
+.pc-zebra {
+    display: inline-block;
+    width: 100%;
+    min-height: 300px;
+    background-color: #eee;
+}
+.pc-zebra:nth-of-type(odd) {
+    background-color: #fff;
+}
+
+.pc-content {
+   width: 900px;
+   margin: 0 auto;
+   line-height: 1.6em;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.pc-boxtitle {
+    border-bottom: 1px solid #999;
+    display: inline-block;
+    width: 405px;
+    font-size: x-large;
+    margin-left: -20px;
+    margin-top: -5px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.pc-sectbox {
+    padding:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    width:380px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    display:inline-block;
+    vertical-align:top;
+    background-color: #fff;
+}
+.pc-sectbox:hover {
+    border: 1px solid #666;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.5);
+}
+
+.pc-boxlink {
+    text-align:center;
+    padding:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    line-height: 1.1em;
+    width:160px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    display:inline-block;
+    vertical-align:top;
+    background-color: #fff;
+}
+.pc-boxlink:hover {
+    border: 1px solid #666;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.5);
+}
+
+.pc-scrollbox {
+    line-height: 1.2em;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background:#d3d1c4;
+    box-shadow: #999999 0px 0px 10px 5px inset;
+    padding-left: 25px;
+    margin-left: -25px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #82003b transparent;
+}
+.pa-scrollbox-x {
+    white-space: nowrap;
+}
+.pa-scrollbox-y {
+    transition: max-height 0.4s ease-out 0s;
+    max-height: 400px;
+    //width: 905px;
+}
+.pa-scrollbox-y::-webkit-scrollbar {
+    width: 10px;
+}
+.pa-scrollbox-x::-webkit-scrollbar {
+    height: 10px;
+}
+.pa-scrollbox::-webkit-scrollbar-thumb {
+  background: #82003b;
+}
+.pa-scrollbox::-webkit-scrollbar-thumb:hover {
+  background: #ff5f00;
+}
+
+
+.pc-xlb {
+    font-size:x-large;
+    font-weight:bolder;
+}
+
+.pc-smg {
+    font-size:small;
+    font-weight:normal;
+    color:#666;
+}
+
+.pc-hu:hover {
+    text-decoration: underline;
+}
+
+
+.pc-table {
+    border-collapse: collapse;
+    border-bottom: 1px solid #000;
+}
+.pc-table th {
+    background-color: #2c99ce;
+    color: #fff;
+    padding: 2px;
+}
+.pc-table td {
+    padding: 2px;
+}
+
+tr.pc-hov {
+    border-left: 5px solid #ffffff00;
+}
+tr.pc-hov:hover {
+    border-left: 5px solid #2c99ce;
+    background-color: #def;
+}
+
+
+
+.pc-news td {
+    border-top: 1px solid #002664;
+    padding-bottom:10px;
+}
+
+
+
+.pc-footer {
+    background-color:#002664;
+    color: #fff;
+    width: 100%;
+    min-height: 100px;
+    border-top: 4px solid #2c99ce;
+    text-align: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0) ), url('./PTMXbanner.png');
+    background-size: contain;
+}
+
+.pc-justifiedtext {
+    text-align: justify;
+}
+
+
+
+
+
+.pc-textlink {
+    cursor:pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: #006dff;
+}
+.pc-textlink:hover {
+    text-decoration: underline;
+    color: #82003b;
+}
+
+.pc-simplesearch {
+    font-size:x-large;
+    color:#006dff;
+    border:0;
+    border-bottom:1px solid #aaa;
+}
+
+.pc-button {
+    padding:5px;
+    margin-left:10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display:inline;
+    background-color: #fff;
+    color:#ccc;
+}
+.pa-button:hover, .pa-button:focus {
+    border: 1px solid #002664;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.5);
+    color:#002664;
+    font-weight: bold;
+    background-color: #22eceb;
+    cursor:pointer;
+}
+
+
+
+.pa-orange {
+    color: #ff5f00;
+}
+
+.pa-leftimg {
+    width: 120px;
+    float: left;
+    margin-right: 20px;
+}
+

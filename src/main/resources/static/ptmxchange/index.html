@@ -1,80 +1,115 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-
+  <meta http-equiv="Content-Type" content="text/html">
+  <link rel="stylesheet" href="stylesheets/isb.css">
+  <link rel="stylesheet" href="stylesheets/pc.css">
+  <link rel="stylesheet" href="stylesheets/ptmx.css">
+  <title>PTMeXchange at ProteomeXchange</title>
 </head>
 
 <body>
-
-<section class="page-header">
-  <h2 class="project-tagline"></h2>
-  <h1><img src="logo.png"></h1>
+<section id="pc-banner">
+  <div style="margin-top:10px;" class="pc-content">
+    <img style="height:100px;" src="PTMeXchange_org.png">
+  </div>
 </section>
 
-<section class="main-content">
+<div class="pc-zebra"><div style="margin-top:120px;" class="pc-content">
+    <h1>Overview</h1>
+    <p class="pc-justifiedtext" style="font-size:larger;">The <strong>PTMeXchange</strong> project has been established to make Post-Translational Modification (PTM) data <strong>FAIR</strong> (Findable, Accessible, Interoperable and Re-usable). Briefly, public proteomics datasets from ProteomeXchange resources are selected and manually curated. Then, the datasets are reanalysed using open analysis pipelines. The results are resubmitted to <strong>PRIDE</strong> and/or made available via <strong>PeptideAtlas</strong>. Finally, PTM data are integrated into <strong>UniProtKB</strong>, linking back to the original mass spectrometry evidence in ProteomeXchange resources. All produced data are released to the community.</p>
+</div></div>
 
-  <h2>
-    <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PTMXchange</h2>
 
-  <p>The PTMeXchange project has been established to make Post-Translational Modification (PTM) data FAIR (Findable, Accessible, Interoperable and Re-usable). Briefly, public proteomics datasets from ProteomeXchange resources are selected and manually curated. Then, the datasets are reanalysed using open analysis pipelines. The results are resubmitted to PRIDE and/or made available via PeptideAtlas. Then, PTM data is integrated into Uniprot, linking back to the original mass spectrometry evidence in ProteomeXchange resources. All produced data is released to the community.</p>
 
-  <p><img src="ptmxchange.png" align="middle"></p>
-
-  <h2>
-    <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Members</h2>
-
-  <p>The current members of the Consortium are: <a href="http://www.ebi.ac.uk/pride/archive/">PRIDE</a> (EMBL-EBI, Cambridge, UK), <a href="http://www.peptideatlas.org/">PeptideAtlas</a> (ISB, Seattle, WA, USA),  <a href="http://www.uniprot.org">Uniprot</a> (EMBL-EBI, Cambridge, UK), <a href="https://www.liverpool.ac.uk/systems-molecular-and-integrative-biology/staff/andrew-jones/">University of Liverpool</a> (Liverpool, UK).</p>
-
-  <div align="center" style="vertical-align:bottom">
-    <table cellspacing="0" cellpadding="0" border="0">
-      <tr border="0">
-        <td><a href="https://www.ebi.ac.uk/pride/"><img src="pride_logo.png" height="50"></a></td>
-      </tr>
+<div class="pc-zebra"><div class="pc-content">
+    <h1>Datasets</h1>
+    <table class="pcdatatable" style="border-collapse:collapse;">
       <tr>
-        <td><a href="https://www.peptideatlas.org"><img src="PeptideAtlas_Logo.png" height="70"></a></td>
+	<th>Species</th><th>Name</th><th>Modification</th><th>PXD</th><th>PeptideAtlas</th><th>UniProtKB</th><th>Publication</th>
       </tr>
-      <tr>
-        <td><a href="https://www.uniprot.org"><img src="uniprot.png" height="50"></a></td>
+      <tr class="pc-hov">
+        <td><i>Oryza sativa</i></td><td>Rice</td><td>Phospho</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD046874">PXD046874</a></td><td><a href="https://peptideatlas.org/builds/rice/phospho/">Rice Phospho 2022&#8209;11</td><td>Visible on <a href="https://www.uniprot.org/proteomes/UP000059680">Oryza sativa subsp. japonica (Rice) proteome</a></td><td><a href="https://www.biorxiv.org/content/10.1101/2023.11.17.567512v1">Ramsbottom et al.</a></td>
       </tr>
-      <tr>
-        <td><a href="https://www.liverpool.ac.uk/systems-molecular-and-integrative-biology/staff/andrew-jones/"><img src="liverpool.png" height="50"></a></td>
+      <tr class="pc-hov">
+        <td><i>Plasmodium falciparum</i></td><td>Malaria parasite</td><td>Phospho</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD046188">PXD046188</a></td><td><a href="https://peptideatlas.org/builds/pfalciparum/phospho/">Plasmodium Phospho 2023&#8209;10</td><td>Visible on <a href="https://www.uniprot.org/proteomes/UP000001450">Plasmodium falciparum (isolate 3D7) proteome</a></td><td><a href="https://www.biorxiv.org/content/10.1101/2023.11.20.567785v1">Camacho et al.</a></td>
       </tr>
-     </table>
-  </div>
-
-  <p>We welcome other members to join these efforts.</p>
-
-  <h2>
-    <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Funding</h2>
-
-  <p>This project is funded by BBSRC and NSF.</p>
-
-  <div align="center" style="vertical-align:bottom">
-    <table cellspacing="0" cellpadding="0" border="0">
-      <tr border="0">
-        <td><a href="https://www.nsf.gov/"><img src="NSF.jpeg" height="70"></a></td>
+      <tr class="pc-hov">
+        <td><i>Homo sapiens</i></td><td>Human</td><td>Phospho</td><td>N/A</td><td><a href="https://peptideatlas.org/builds/human/phospho/">Human Phospho 2022&#8209;04</td><td>In progress</td><td></td>
       </tr>
-      <tr>
-        <td><a href="https://www.ukri.org/councils/bbsrc/"><img src="BBSRC.jpeg" height="50"></a></td>
+      <tr class="pc-hov">
+        <td><i>Mus musculus</i></td><td>Mouse</td><td>Phospho</td><td>N/A</td><td><a href="https://peptideatlas.org/builds/mouse/phospho/">Mouse Phospho 2022&#8209;11</td><td>In progress</td><td></td>
       </tr>
     </table>
-  </div>
+    <br>
 
-  <footer class="site-footer">
+    <h2>PTM Builds in Progress</h2>
+    <ul>
+      <li>Human SUMOylation, lysine acetylation and ubiquitination</li>
+      <li>Phosphorylation in <i>Saccharomyces cerevisiae</i>, <i>Trypanosome brucei</i>, <i>Toxoplasma gondii</i> and <i>Zea mays</i> (maize) </li>
+    </ul>
+ </div></div>
 
-    <span class="site-footer-credits">This page was developed by ProteomeXchange Team <a href="contact/">Contact Us</a></span>
-  </footer>
+
+
+<div class="pc-zebra"><div class="pc-content">
+    <h1>Methods Publications</h1>
+    <ul>
+      <li>Ramsbottom KA, Prakash A, Riverol YP, Camacho OM, Martin MJ, Vizcaíno JA, Deutsch EW, Jones AR, <strong>Method for Independent Estimation of the False Localization Rate for Phosphoproteomics</strong>, 2022, <a href="https://pubs.acs.org/doi/full/10.1021/acs.jproteome.1c00827">J Proteome Res. 2022 Jul 1;21(7):1603-1615</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9251759/">PMC9251759</a></li>
+
+      <li>Kalyuzhnyy A, Eyers PA, Eyers CE, Bowler-Barnett E, Martin MJ, Sun Z, Deutsch EW, Jones AR. J, <strong>Profiling the Human Phosphoproteome to Estimate the True Extent of Protein Phosphorylation</strong>, 2022, <a href="https://pubs.acs.org/doi/10.1021/acs.jproteome.2c00823">J Proteome Res. 2022 Jun 3;21(6):1510-1524</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9171898">PMC9171898</a></li>
+
+      <li>Camacho OM, Ramsbottom KA, Collins A, Jones AR, <strong>Assessing Multiple Evidence Streams to Decide on Confidence for Identification of Post-Translational Modifications, within and Across Data Sets</strong>, 2023,  <a href="https://pubs.acs.org/doi/10.1021/acs.jproteome.2c00823">J Proteome Res. 2023 Jun 2;22(6):1828-1842</a>. PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10243108">PMC10243108</a></li>
+    </ul>
+ 
+    <img width="100%" src="ptmxchange.png" class="buttonfake">
+</div></div>
+
+
+<div class="pc-zebra"><div class="pc-content">
+    <h1>Members</h1>
+    <p>The current members of the Consortium are: <a href="http://www.ebi.ac.uk/pride/archive/">PRIDE</a> (EMBL-EBI, Cambridge, UK), <a href="http://www.peptideatlas.org/">PeptideAtlas</a> (ISB, Seattle, WA, USA),  <a href="http://www.uniprot.org">UniProt</a> (EMBL-EBI, Cambridge, UK), <a href="https://www.liverpool.ac.uk/systems-molecular-and-integrative-biology/staff/andrew-jones/">University of Liverpool</a> (Liverpool, UK).</p>
+
+    <a href="https://www.ebi.ac.uk/pride/" style="height:80px;text-align:center;" class="pc-sectbox">
+      <img width="380px" src="pride_logo.png">
+    </a>
+
+    <a href="https://www.peptideatlas.org" style="text-align:center;" class="pc-sectbox">
+      <img height="80px" src="PeptideAtlas_Logo.png">
+    </a>
+
+    <a href="https://www.uniprot.org" style="text-align:center;" class="pc-sectbox">
+      <img height="80px" src="uniprot.png">
+    </a>
+
+    <a href="https://www.liverpool.ac.uk/systems-molecular-and-integrative-biology/staff/andrew-jones/" style="text-align:center;" class="pc-sectbox">
+      <img height="80px" src="liverpool.png">
+    </a>
+
+    <p>We welcome other members to join these efforts.</p>
+</div></div>
+
+
+<div class="pc-zebra"><div class="pc-content">
+    <h1>Funding</h1>
+    <p>This project is funded by NSF and BBSRC.</p>
+
+    <a href="https://www.nsf.gov/" style="text-align:center;" class="pc-sectbox">
+      <img height="80px" src="NSF.jpeg"><br>
+      National Science Foundation
+    </a>
+
+    <a href="https://www.ukri.org/councils/bbsrc/" style="text-align:center;" class="pc-sectbox">
+      <img height="55px" src="BBSRC.jpeg"><br>
+      Biotechnology and Biological Sciences Research Council
+    </a>
+
+</div></div>
+
+
+<section class="pc-footer">
+PTMeXchange<br>
+&copy; 2023, All Rights Reserved
 </section>
-<aside><a href="https://groups.google.com/forum/feed/proteomexchange/msgs/rss_v2_0.xml"><img border="0" src="feed.jpeg" alt="XML"></a></aside>
-
-<p></p>
-
 </body>
 </html>
+

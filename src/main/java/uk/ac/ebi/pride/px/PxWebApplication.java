@@ -97,9 +97,9 @@ public class PxWebApplication {
     @Controller
     public class PTMxchangeRedirection{
 
-        @RequestMapping(value="/ptmxchange",method = RequestMethod.GET)
+        @RequestMapping(value="/ptmexchange",method = RequestMethod.GET)
         public String redirectPTMxchangePage(){
-            return "redirect:/ptmxchange/index.html";
+            return "redirect:/ptmexchange/index.html";
         }
     }
 }
